@@ -28,7 +28,6 @@ install_requires = [
     "chex>=0.1.4",
     "numpy",
     "jax",
-    "flax",
     "aqtp>=0.1.0",
 ]
 
