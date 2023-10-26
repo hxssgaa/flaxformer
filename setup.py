@@ -26,17 +26,17 @@ except IOError:
 
 install_requires = [
     "chex>=0.1.4",
-    "numpy>=1.12",
-    "jax>=0.2.21",
-    "flax>=0.6.9",
+    "numpy",
+    "jax",
+    "flax",
     "aqtp>=0.1.0",
 ]
 
 tests_require = [
     "absl-py",
     "pytest",
-    "tensorflow>=2.14.0",
-    "tensorflow-text>=2.14.0rc0",
+    "tensorflow",
+    "tensorflow-text",
     "gin-config",
     "t5x @ git+https://github.com/google-research/t5x",
 ]
